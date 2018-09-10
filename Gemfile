@@ -60,3 +60,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
+gem 'simple_form'
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "annotate"
+end
